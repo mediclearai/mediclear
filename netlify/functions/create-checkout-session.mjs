@@ -14,11 +14,11 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 // Tier → live price ID (from your new standalone Stripe account)
 const TIERS = {
   pro: {
-    priceId: "price_1ThZvLAPsnWNgT661EXk3nM9", // $49/mo
+     priceId: "price_LIVE_PRO_ID_HERE",      // ← line 17, $49/mo
     label: "Pro",
   },
   clinical: {
-    priceId: "price_1ThZyRAPsnWNgT66VUAR7CB8", // $299/mo
+   priceId: "price_LIVE_CLINICAL_ID_HERE", // ← line 21, $299/mo
     label: "Clinical",
   },
 };
