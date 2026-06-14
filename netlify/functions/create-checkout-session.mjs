@@ -8,8 +8,10 @@
 //   SITE_URL            https://bridges.healthcare   (optional; falls back below)
 
 import Stripe from "stripe";
+ starter:   { priceId: "price_REPLACE_STARTER",   credits: 50 },
+advocate:  { priceId: "price_REPLACE_ADVOCATE",  credits: 150 },
+caregiver: { priceId: "price_REPLACE_CAREGIVER", credits: 400 },
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Tier → live price ID (from your new standalone Stripe account)
 const TIERS = {
