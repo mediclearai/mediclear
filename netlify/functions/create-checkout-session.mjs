@@ -18,7 +18,11 @@ const TIERS = {
   pro: {
      priceId: "price_LIVE_PRO_ID_HERE",      // ← line 17, $49/mo
     label: "Pro",
-  },
+  },const PRICE_IDS = {
+  pro: "price_1ThZvLAPsnWNgT661EXk3nM9",       // $49/mo
+  clinical: "price_1ThZyRAPsnWNgT66VUAR7CB8",  // $299/mo
+};
+
   clinical: {
    priceId: "price_LIVE_CLINICAL_ID_HERE", // ← line 21, $299/mo
     label: "Clinical",
